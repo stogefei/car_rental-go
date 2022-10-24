@@ -1,0 +1,15 @@
+<view>
+  <map 
+    id="mapId"
+    class="map"
+    latitude="{{latitude}}"
+    longitude="{{longitude}}"
+    :show-location="{{true}}"
+    :show-compass="{{true}}"
+    markers="{{markers}}"
+    scale="{{16}}"
+    id="map"
+    ref="map"
+    >
+  </map>
+</view>
